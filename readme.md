@@ -10,6 +10,7 @@
 
 - x86-64 assembler: [pasm](https://github.com/Matissoss/pasm)
 - syntax notation: [psyn](https://github.com/Matissoss/psyn)
+- simple hex dump: [sxd](https://github.com/Matissoss/sxd)
 
 ## roadmap to v1
 
