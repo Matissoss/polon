@@ -25,10 +25,11 @@ Codenames are used internally and alongside official releases.
 
 ## roadmap v1 - mieszko
 
-Goal: release self-hosted toolchain, for now with x86-64 arch support and ELF/baremetal/pob target support.
+Goal: release self-hosted toolchain, for now with x86-64 arch support (and SPARC) and ELF/baremetal/pob target support.
 
 - [ ] x86-64 assembler [pasm](https://github.com/Matissoss/pasm)
-- [ ] x86-64 static ELF linker + own baremetal object file format (`.pob`)
+- [ ] SPARC assembler pasm-sparc
+- [ ] SPARC and x86-64 static ELF linker + own baremetal object file format (`.pob`)
 - [ ] Defining core architecture of `polon` (how to make modules work together, allow community to develop plug&play modules and remain SRP?)
 - [ ] Create shared library for CLI's (to have unified info, debug, error, etc. formats)
 - [ ] Define IR format and integrate it with assembler and linker; add first assembly instrincts
